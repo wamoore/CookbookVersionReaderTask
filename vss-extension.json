@@ -23,7 +23,7 @@
   },
   "files": [
     {
-      "path": "AssemblyInfoReaderTask"
+      "path": "CookbookVersionReader"
     }
   ],
   "content": {
