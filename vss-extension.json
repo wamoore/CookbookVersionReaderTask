@@ -3,7 +3,7 @@
   "id": "CookbookVersionReader",
   "name": "Chef Cookbook Version Reader",
   "version": "1.0.0",
-  "publisher": "WillMoore",
+  "publisher": "wkdmoore",
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
