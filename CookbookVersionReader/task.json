@@ -1,0 +1,40 @@
+{
+  "id": "33FD47EB-F330-4462-9C7D-230FEEE3956D",
+  "name": "CookbookVersionReader",
+  "friendlyName": "Chef Cookbook Version Reader",
+  "description": "Reads the version from the metadata.rb file and makes it available as build variables.",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "Will Moore",
+  "version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 0
+  },
+  "instanceNameFormat": "Generate variables $(searchPattern) ",
+  "inputs": [
+    {
+        "name": "searchPattern",
+        "type": "filePath",
+        "label": "Path to metadata.rb file",
+        "defaultValue": "**\\metadata.rb",
+        "helpMarkDown": "Pattern to use for finding the metadata.rb file.",
+        "required": true
+    },
+    {
+        "name": "variablesPrefix",
+        "type": "string",
+        "label": "Variables Prefix",
+        "defaultValue": "",
+        "helpMarkDown": "Each variable generated will be prefixed with this value.",
+        "required":  false
+    }
+  ],
+  "execution": {
+    "PowerShell": {
+      "target": "$(currentDirectory)\\CookbookVersionReader.ps1",
+      "argumentFormat": "",
+      "workingDirectory": ""
+    }
+  }
+}
