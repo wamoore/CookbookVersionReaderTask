@@ -23,7 +23,7 @@
   },
   "files": [
     {
-      "path": "scripts"
+      "path": "CookbookVersionReaderTask"
     }
   ],
   "content": {
