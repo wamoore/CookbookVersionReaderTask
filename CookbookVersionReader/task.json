@@ -5,11 +5,15 @@
   "description": "Reads the version from the metadata.rb file and makes it available as build variables.",
   "helpMarkDown": "",
   "category": "Utility",
+  "visibility": [
+    "Build",
+    "Release"
+  ],
   "author": "wkdmoore",
   "version": {
     "Major": 1,
     "Minor": 0,
-    "Patch": 2
+    "Patch": 0
   },
   "instanceNameFormat": "Generate variables $(searchPattern) ",
   "inputs": [
