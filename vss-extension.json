@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "CookbookVersionReader",
-  "name": "Chef Cookbook Version Reader",
+  "name": "CookbookVersionReader",
   "version": "1.0.0",
   "publisher": "wkdmoore",
   "targets": [
